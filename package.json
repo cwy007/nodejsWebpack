@@ -1,4 +1,10 @@
 {
+  "name": "nodejswebpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cwy007/nodejsWebpack.git",
+  "author": "chenweiyan <chanweiyan007@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.23"
   }
