@@ -2,7 +2,7 @@ const fs = require('fs');
 
 let data = '';
 const readStream = fs.createReadStream('./a.js', { encoding: 'utf8' });
-const writeStream = fs.createWriteStream('./b.js', { encoding: 'utf8' }); // fs.createWriteStream 会创建对应的文件
+const writeStream = fs.createWriteStream('./b.js', { encoding: 'utf8' });
 
 readStream.on('data', (chunk) => {
   writeStream.write(chunk);
